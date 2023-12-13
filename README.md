@@ -7,7 +7,7 @@ $|+\rangle |\Psi \rangle = \frac{1}{\sqrt{2}}(|0\rangle|\Psi\rangle + |1\rangle|
 
 We apply a controled-$U^{2^{t}}$ gate where t it's an integer number.
 
-We recall, the action of a controlled-$U^{2^{t}}$ gate:
+We recall, the action of a $controlled-U^{2^{t}}$ gate:
 If the control qubit is in the state $|0\rangle$, nothing changes. If the control qubit is in the state $|1\rangle$, then the operator $U^{2^{t}}$ acts on the target qubit. Thus,
 
 $$
