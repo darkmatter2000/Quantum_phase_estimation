@@ -10,13 +10,15 @@ We apply a $controled-U^{2^{t}}$ gate where t it's an integer number.
 We recall, the action of a $controlled-U^{2^{t}}$ gate:
 If the control qubit is in the state $|0\rangle$, nothing changes. If the control qubit is in the state $|1\rangle$, then the operator $U^{2^{t}}$ acts on the target qubit. Thus,
 
+
 $$
 \begin{align}
 controled-U^{2^{t}}[|+\rangle |\Psi \rangle] &= controled-U^{2^{t}}[\frac{1}{\sqrt{2}}(|0\rangle|\Psi\rangle + |1\rangle|\Psi\rangle)] \\
 &= \frac{1}{\sqrt{2}}(|0\rangle|\Psi\rangle + e^{i 2\pi 2^{t} \varphi}|1\rangle|\Psi\rangle) \text{ car } U|\Psi\rangle = e^{i 2\pi \varphi} |\Psi\rangle \implies  U^{2^{t}}|\Psi \rangle = e^{i 2\pi 2^{t} \varphi}|\Psi \rangle \\
 &= \frac{1}{\sqrt{2}}(|0\rangle +  e^{i 2\pi 2^{t} \varphi}|1\rangle)|\Psi\rangle
-\end{align} 
-$$
+\end{align}
+$$ 
+
 
 We have
 
