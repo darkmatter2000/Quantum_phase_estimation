@@ -31,7 +31,7 @@ $$
 $$
 \begin{align}
 \varphi_{10} &= 0.\varphi_{1}\varphi_{2}...\varphi_{n}\\
-&= \varphi_{1}\varphi_{2}...\varphi_{t}.\varphi_{t+1}...\varphi_{n}.2^{-t}\\
+&= \varphi_{1}\varphi_{2}...\varphi_{t}.\varphi_{t+1}...\varphi_{n}.2^{-t}_{2}\\
 \end{align}
 $$
 
