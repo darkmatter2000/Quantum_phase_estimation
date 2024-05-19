@@ -1,5 +1,6 @@
 # Quantum_phase_estimation
-The phase estimation algorithm is an algorithm that, given a unitary matrix U and an eigenvector $|\Psi \rangle$ with an eigenvalue $e^{i 2\pi \varphi}$, provides an estimation of $\varphi$.The precision on $\varphi$ increases with the number of ancillary qubits, which poses a constraint on noisy quantum computers.$\\$
+The phase estimation algorithm is an algorithm that, given a unitary matrix U and an eigenvector $|\Psi \rangle$ with an eigenvalue $e^{i 2\pi \varphi}$, provides an estimation of $\varphi$.The precision on $\varphi$ increases with the number of ancillary qubits, which poses a constraint on noisy quantum computers.
+
 In this notebook, we present a different approach that allows for an estimation of $\varphi$ using only a single ancillary qubit.
 
 Let $q_{0} = |+\rangle$ be the auxiliary qubit and $|\Psi\rangle$ a eigenvector of the matrix U. Let's consider the tensor product of the two states:
@@ -49,10 +50,11 @@ for t = n -1, $e^{i 2\pi 2^{n-1} \varphi} = e^{i 2\pi 0.\varphi_{n}}$:
 if $\varphi_{n}$ = 0 , the final state is $|+\rangle = \frac{1}{\sqrt{2}}(|0\rangle + |1\rangle)$
 if $\varphi_{n}$ = 1 , the final state is $|-\rangle = \frac{1}{\sqrt{2}}(|0\rangle - |1\rangle)$
 
-It only takes a measurement of the auxiliary qubit in the **X** basis ($|+\rangle, |-\rangle$) to determine whether the bit $\varphi_{n}$ is 0 or 1.$\\$
+It only takes a measurement of the auxiliary qubit in the **X** basis ($|+\rangle, |-\rangle$) to determine whether the bit $\varphi_{n}$ is 0 or 1.
+
 Now $\varphi_{n-1}:$
 
-We apply controlled-$U^{2^{t}}$, which results in the state:
+We apply controlled- $U^{2^{t}}$, which results in the state:
 
 $$
 \begin{align}
