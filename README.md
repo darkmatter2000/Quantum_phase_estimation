@@ -20,7 +20,7 @@ controled-U^{2^{t}}[|+\rangle |\Psi \rangle] &= controled-U^{2^{t}}[\frac{1}{\sq
 $$ 
 
 
-We have
+We have\\
 $$
 \begin{align}
 \varphi_{10} &= 0.\varphi_{1}\varphi_{2}...\varphi_{n}\\
