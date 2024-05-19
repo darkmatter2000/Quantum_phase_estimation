@@ -21,6 +21,7 @@ $$
 
 
 We have\\
+
 $$
 \begin{align}
 \varphi_{10} &= 0.\varphi_{1}\varphi_{2}...\varphi_{n}\\
